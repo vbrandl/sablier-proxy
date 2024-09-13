@@ -93,6 +93,7 @@ async fn proxy(config: Config) -> Result<()> {
                     error!(client = %client_addr, error = %err, "Error sending to client");
                 }
             }
+            info!(client = %client_addr, "connection closed");
         });
     }
 }
