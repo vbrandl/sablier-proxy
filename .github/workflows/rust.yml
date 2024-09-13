@@ -2,7 +2,7 @@ on:
   workflow_call:
   push:
     branches:
-      - master
+      - main
   pull_request:
   schedule:
     - cron: "0 0 * * *"
