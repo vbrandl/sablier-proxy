@@ -1,7 +1,6 @@
 services:
   proxy:
-    build:
-      context: ../
+    image: ghcr.io/vbrandl/sablier-proxy:v0.1.0
     ports:
       - '8080:8080'
     environment:

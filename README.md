@@ -10,9 +10,11 @@ As long as there is at least one active connection, a background task pings the 
 
 Since this proxy is not protocol aware and not limited to HTTP, the dynamic Sablier configuration doesn't make sense. Therefore only the blocking configuration is implemented.
 
-## Configuration
+## Usage and Configuration
 
-The proxy is configured using environment variables and matches the Sablier configuration for other proxies
+Replace your Caddy, Traefik or Nginx reverse proxy with `ghcr.io/vbrandl/sablier-proxy` and configure the proxy service.
+
+The proxy is configured using environment variables and matches the Sablier configuration for other reverse proxies.
 
 | Variable | Default Value | Description
 | --- | --- | --- |
@@ -27,15 +29,14 @@ The proxy is configured using environment variables and matches the Sablier conf
 | `UPSTREAM_RETRIES` | `5` | When the backend gets started, this number controls how often the Sablier endpoint is checked before the connection will be dropped |
 | `UPSTREAM_RETRY_DURATION_MS` | `200` | Duration between `UPSTREAM_RETRIES` in ms |
 
-## Example
+### Example
 
 The following example will shut down the `echo` service after 10 seconds of inactivity
 
 ```yaml
 services:
   proxy:
-    build:
-      context: ../
+    image: ghcr.io/vbrandl/sablier-proxy:v0.1.0
     ports:
       - '8080:8080'
     environment:
