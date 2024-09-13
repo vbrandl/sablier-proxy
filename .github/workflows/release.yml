@@ -63,6 +63,8 @@ jobs:
 
   changelog:
     name: Update Changelog
+    permissions:
+      contents: write
     needs: [tests]
     runs-on: ubuntu-latest
     steps:
