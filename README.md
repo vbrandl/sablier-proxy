@@ -25,7 +25,7 @@ The proxy is configured using environment variables and matches the Sablier conf
 | `BLOCKING_TIMEOUT` | | |
 | `PING_INTERVAL_SEC` | `10` | Interval in which the Sablier endpoint is pinged if there is at least one active connection |
 | `UPSTREAM_RETRIES` | `5` | When the backend gets started, this number controls how often the Sablier endpoint is checked before the connection will be dropped |
-| `upstream_retry_duration_ms` | `200` | Duration between `UPSTREAM_RETRIES` in ms |
+| `UPSTREAM_RETRY_DURATION_MS` | `200` | Duration between `UPSTREAM_RETRIES` in ms |
 
 ## Example
 
