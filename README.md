@@ -36,7 +36,7 @@ The following example will shut down the `echo` service after 10 seconds of inac
 ```yaml
 services:
   proxy:
-    image: ghcr.io/vbrandl/sablier-proxy:v0.1.0
+    image: ghcr.io/vbrandl/sablier-proxy:latest
     ports:
       - '8080:8080'
     environment:
