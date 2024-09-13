@@ -1,0 +1,30 @@
+services:
+  proxy:
+    build:
+      context: ../
+    ports:
+      - '8080:8080'
+    environment:
+      - LISTEN="0.0.0.0:8080"
+      - UPSTREAM="echo:80"
+      - GROUP="demo"
+      # shutdown echo server after 10s
+      - SESSION_DURATION="10s"
+      # block 2s when waiting for the echo server to start
+      - BLOCKING_TIMEOUT="2s"
+
+  echo:
+    image: cjimti/go-echo
+    environment:
+      - TCP_PORT=80
+    labels:
+      - sablier.enable=true
+      - sablier.group=demo
+
+  sablier:
+    image: acouvreur/sablier:1.7.0
+    command:
+        - start
+        - --provider.name=docker
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock'
