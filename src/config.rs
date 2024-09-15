@@ -50,9 +50,15 @@ impl Config {
 }
 
 impl Config {
+    fn normalize_sablier_url(&self) -> &str {
+        self.sablier_url
+            .strip_suffix('/')
+            .unwrap_or(&self.sablier_url)
+    }
+
     pub async fn request(&self) -> Result<Response> {
         let client = Client::new();
-        let url = format!("{}{API_PATH}", self.sablier_url,);
+        let url = format!("{}{API_PATH}", self.normalize_sablier_url());
         let mut request = client.get(url).query(&[
             ("session_duration", &self.session_duration),
             ("group", &self.group),

@@ -20,7 +20,7 @@ The proxy is configured using environment variables and matches the Sablier conf
 | --- | --- | --- |
 | `LISTEN` | | IP and port to listen on |
 | `UPSTREAM` | | Upstream IP and port |
-| `SABLIER_URL` | `http://sablier:10000` | URL of the Sablier service. Must not end in `/` |
+| `SABLIER_URL` | `http://sablier:10000` | URL of the Sablier service. |
 | `NAMES` | | |
 | `GROUP` | | |
 | `SESSION_DURATION` | | Duration until the backend will be shut down |
