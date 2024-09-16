@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - Normalize Sablier URL by removing trailing slash
 
+### Dependencies
+- Bump `anyhow` from 1.0.88 to 1.0.89 ([#1](https://github.com/vbrandl/sablier-proxy/pull/1))
+
 ## [0.2.0] 2024-09-13
 - Improved logging
 - Better tagging for Docker images
