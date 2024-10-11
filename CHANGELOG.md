@@ -4,7 +4,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.3.0] 2024-10-11
+
 - Normalize Sablier URL by removing trailing slash
+- Log if upstream is unavailable ([#4](https://github.com/vbrandl/sablier-proxy/pull/4))
 
 ### Dependencies
 - Bump `anyhow` from 1.0.88 to 1.0.89 ([#1](https://github.com/vbrandl/sablier-proxy/pull/1))
