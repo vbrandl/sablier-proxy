@@ -59,8 +59,12 @@ async fn proxy(config: Config) -> Result<()> {
                 error!(error = %err, "error requesting upstream status");
                 return;
             }
-            let Ok(mut remote) = TcpStream::connect(&config.upstream).await else {
-                return;
+            let mut remote = match TcpStream::connect(&config.upstream).await {
+                Ok(remote) => remote,
+                Err(err) => {
+                    error!(client=%client_addr, error = %err, "cannot connect to upstream");
+                    return;
+                }
             };
             active_connections.fetch_add(1, Ordering::Relaxed);
             let (mut client_read, mut client_write) = client.split();
