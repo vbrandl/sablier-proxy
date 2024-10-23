@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Dependencies
-- Bump `anyhow` from 1.0.89 to 1.0.90 ([#5](https://github.com/vbrandl/sablier-proxy/pull/5))
+- Bump `anyhow` from 1.0.89 to 1.0.91 ([#5](https://github.com/vbrandl/sablier-proxy/pull/5), [#6](https://github.com/vbrandl/sablier-proxy/pull/6))
 
 ## [0.3.0] 2024-10-11
 
