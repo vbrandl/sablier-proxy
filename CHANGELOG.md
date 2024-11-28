@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `tokio` from 1.40.0 to 1.41.1 ([#7](https://github.com/vbrandl/sablier-proxy/pull/7), [#13](https://github.com/vbrandl/sablier-proxy/pull/13))
 - Bump `serde` from 1.0.210 to 1.0.215 ([#8](https://github.com/vbrandl/sablier-proxy/pull/8), [#9](https://github.com/vbrandl/sablier-proxy/pull/9), [#14](https://github.com/vbrandl/sablier-proxy/pull/14))
 - Bump `reqwest` from 0.12.8 to 0.12.9 ([#10](https://github.com/vbrandl/sablier-proxy/pull/10))
+- Bump `tracing` from 0.1.40 to 0.1.41 ([#15](https://github.com/vbrandl/sablier-proxy/pull/15))
 
 ## [0.3.0] 2024-10-11
 
