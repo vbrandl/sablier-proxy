@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Dependencies
-- Bump `anyhow` from 1.0.89 to 1.0.93 ([#5](https://github.com/vbrandl/sablier-proxy/pull/5), [#6](https://github.com/vbrandl/sablier-proxy/pull/6), [#11](https://github.com/vbrandl/sablier-proxy/pull/11), [#12](https://github.com/vbrandl/sablier-proxy/pull/12))
+- Bump `anyhow` from 1.0.89 to 1.0.94 ([#5](https://github.com/vbrandl/sablier-proxy/pull/5), [#6](https://github.com/vbrandl/sablier-proxy/pull/6), [#11](https://github.com/vbrandl/sablier-proxy/pull/11), [#12](https://github.com/vbrandl/sablier-proxy/pull/12), [#17](https://github.com/vbrandl/sablier-proxy/pull/17))
 - Bump `tokio` from 1.40.0 to 1.41.1 ([#7](https://github.com/vbrandl/sablier-proxy/pull/7), [#13](https://github.com/vbrandl/sablier-proxy/pull/13))
 - Bump `serde` from 1.0.210 to 1.0.215 ([#8](https://github.com/vbrandl/sablier-proxy/pull/8), [#9](https://github.com/vbrandl/sablier-proxy/pull/9), [#14](https://github.com/vbrandl/sablier-proxy/pull/14))
 - Bump `reqwest` from 0.12.8 to 0.12.9 ([#10](https://github.com/vbrandl/sablier-proxy/pull/10))
