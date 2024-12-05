@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `reqwest` from 0.12.8 to 0.12.9 ([#10](https://github.com/vbrandl/sablier-proxy/pull/10))
 - Bump `tracing` from 0.1.40 to 0.1.41 ([#15](https://github.com/vbrandl/sablier-proxy/pull/15))
 - Bump `tracing-subscriber` from 0.3.18 to 0.3.19 ([#16](https://github.com/vbrandl/sablier-proxy/pull/16))
+- Bump `actions/attest-build-provenance` from 1 to 2 ([#19](https://github.com/vbrandl/sablier-proxy/pull/19))
 
 ## [0.3.0] 2024-10-11
 
