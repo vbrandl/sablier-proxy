@@ -119,7 +119,7 @@ where
     const BUF_SIZE: usize = 0xffff;
 
     let mut copied = 0;
-    let mut buf = [0u8; BUF_SIZE];
+    let mut buf = vec![0u8; BUF_SIZE].into_boxed_slice();
     loop {
         let bytes_read;
         tokio::select! {
