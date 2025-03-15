@@ -64,7 +64,9 @@ impl Config {
             .query(&[("session_duration", &self.session_duration)]);
         if let Some(names) = &self.names {
             let names: Vec<_> = names.split(',').map(str::trim).collect();
-            request = request.query(&[("names", &names)]);
+            for name in &names {
+              request = request.query(&[("names", name)]);
+            }
         }
         if let Some(timeout) = &self.blocking_timeout {
             request = request.query(&[("timeout", &timeout)]);
