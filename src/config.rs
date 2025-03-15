@@ -59,9 +59,9 @@ impl Config {
     pub async fn request(&self) -> Result<Response> {
         let client = Client::new();
         let url = format!("{}{API_PATH}", self.normalize_sablier_url());
-        let mut request = client.get(url).query(&[
-            ("session_duration", &self.session_duration)
-        ]);
+        let mut request = client
+            .get(url)
+            .query(&[("session_duration", &self.session_duration)]);
         if let Some(names) = &self.names {
             let names: Vec<_> = names.split(',').map(str::trim).collect();
             request = request.query(&[("names", &names)]);
