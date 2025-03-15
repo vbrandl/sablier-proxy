@@ -31,7 +31,7 @@ pub struct Config {
     #[serde(default = "default_url")]
     sablier_url: String,
     names: Option<String>,
-    group: String,
+    group: Option<String>,
     session_duration: String,
     // only blocking makes sense for TCP
     blocking_timeout: Option<String>,
@@ -60,8 +60,7 @@ impl Config {
         let client = Client::new();
         let url = format!("{}{API_PATH}", self.normalize_sablier_url());
         let mut request = client.get(url).query(&[
-            ("session_duration", &self.session_duration),
-            ("group", &self.group),
+            ("session_duration", &self.session_duration)
         ]);
         if let Some(names) = &self.names {
             let names: Vec<_> = names.split(',').map(str::trim).collect();
@@ -69,6 +68,9 @@ impl Config {
         }
         if let Some(timeout) = &self.blocking_timeout {
             request = request.query(&[("timeout", &timeout)]);
+        }
+        if let Some(group) = &self.group {
+            request = request.query(&[("group", &group)]);
         }
         Ok(request.send().await?)
     }
