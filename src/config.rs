@@ -65,7 +65,7 @@ impl Config {
         if let Some(names) = &self.names {
             let names: Vec<_> = names.split(',').map(str::trim).collect();
             for name in &names {
-              request = request.query(&[("names", name)]);
+                request = request.query(&[("names", name)]);
             }
         }
         if let Some(timeout) = &self.blocking_timeout {
