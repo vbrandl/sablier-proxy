@@ -5,6 +5,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [0.4.0] 2025-03-15
+
 - Make `group` Parameter Optional ([#38](https://github.com/vbrandl/sablier-proxy/pull/38)) thanks to @BUR4KBEY
 - Use Official Traefik Plugin Syntax For `names` Parameter ([#40](https://github.com/vbrandl/sablier-proxy/pull/40)) thanks to @BUR4KBEY
 - Add `ARM64`/`aarch64` Support ([#41](https://github.com/vbrandl/sablier-proxy/pull/41)) thanks to @BUR4KBEY
