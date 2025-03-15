@@ -5,6 +5,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Make `group` Parameter Optional ([#38](https://github.com/vbrandl/sablier-proxy/pull/38)) thanks to @BUR4KBEY
+
 ### Dependencies
 - Bump `anyhow` from 1.0.89 to 1.0.97 ([#5](https://github.com/vbrandl/sablier-proxy/pull/5), [#6](https://github.com/vbrandl/sablier-proxy/pull/6), [#11](https://github.com/vbrandl/sablier-proxy/pull/11), [#12](https://github.com/vbrandl/sablier-proxy/pull/12), [#17](https://github.com/vbrandl/sablier-proxy/pull/17), [#21](https://github.com/vbrandl/sablier-proxy/pull/21), [#27](https://github.com/vbrandl/sablier-proxy/pull/27), [#32](https://github.com/vbrandl/sablier-proxy/pull/32))
 - Bump `tokio` from 1.40.0 to 1.44.1 ([#7](https://github.com/vbrandl/sablier-proxy/pull/7), [#13](https://github.com/vbrandl/sablier-proxy/pull/13), [#18](https://github.com/vbrandl/sablier-proxy/pull/18), [#26](https://github.com/vbrandl/sablier-proxy/pull/26), [#34](https://github.com/vbrandl/sablier-proxy/pull/34), [#37](https://github.com/vbrandl/sablier-proxy/pull/37))
