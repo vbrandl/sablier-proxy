@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Dependencies
 - Bump `reqwest` from 0.12.14 to 0.12.22 ([#43](https://github.com/vbrandl/sablier-proxy/pull/43), [#48](https://github.com/vbrandl/sablier-proxy/pull/48), [#49](https://github.com/vbrandl/sablier-proxy/pull/49), [#50](https://github.com/vbrandl/sablier-proxy/pull/50), [#51](https://github.com/vbrandl/sablier-proxy/pull/51), [#54](https://github.com/vbrandl/sablier-proxy/pull/54))
-- Bump `tokio` from 1.44.1 to 1.46.0 ([#44](https://github.com/vbrandl/sablier-proxy/pull/44), [#46](https://github.com/vbrandl/sablier-proxy/pull/46), [#47](https://github.com/vbrandl/sablier-proxy/pull/47), [#55](https://github.com/vbrandl/sablier-proxy/pull/55))
+- Bump `tokio` from 1.44.1 to 1.46.1 ([#44](https://github.com/vbrandl/sablier-proxy/pull/44), [#46](https://github.com/vbrandl/sablier-proxy/pull/46), [#47](https://github.com/vbrandl/sablier-proxy/pull/47), [#55](https://github.com/vbrandl/sablier-proxy/pull/55), [#56](https://github.com/vbrandl/sablier-proxy/pull/56))
 - Bump `reqwest` from 0.12.14 to 0.12.15 ([#43](https://github.com/vbrandl/sablier-proxy/pull/43))
 - Bump `anyhow` from 1.0.97 to 1.0.98 ([#45](https://github.com/vbrandl/sablier-proxy/pull/45))
 - Bump `stefanzweifel/git-auto-commit-action` from 5 to 6 ([#52](https://github.com/vbrandl/sablier-proxy/pull/52))
