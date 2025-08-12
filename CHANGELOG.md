@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `reqwest` from 0.12.14 to 0.12.15 ([#43](https://github.com/vbrandl/sablier-proxy/pull/43))
 - Bump `anyhow` from 1.0.97 to 1.0.98 ([#45](https://github.com/vbrandl/sablier-proxy/pull/45))
 - Bump `stefanzweifel/git-auto-commit-action` from 5 to 6 ([#52](https://github.com/vbrandl/sablier-proxy/pull/52))
+- Bump `actions/checkout` from 4 to 5 ([#60](https://github.com/vbrandl/sablier-proxy/pull/60))
 
 ## [0.4.0] 2025-03-15
 
