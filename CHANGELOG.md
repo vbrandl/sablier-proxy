@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `stefanzweifel/git-auto-commit-action` from 5 to 6 ([#52](https://github.com/vbrandl/sablier-proxy/pull/52))
 - Bump `actions/checkout` from 4 to 5 ([#60](https://github.com/vbrandl/sablier-proxy/pull/60))
 - Bump `actions/attest-build-provenance` from 2 to 3 ([#62](https://github.com/vbrandl/sablier-proxy/pull/62))
+- Bump `tracing-subscriber` from 0.3.19 to 0.3.20 ([#63](https://github.com/vbrandl/sablier-proxy/pull/63))
 
 ## [0.4.0] 2025-03-15
 
