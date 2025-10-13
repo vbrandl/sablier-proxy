@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `tokio` from 1.44.1 to 1.47.1 ([#44](https://github.com/vbrandl/sablier-proxy/pull/44), [#46](https://github.com/vbrandl/sablier-proxy/pull/46), [#47](https://github.com/vbrandl/sablier-proxy/pull/47), [#55](https://github.com/vbrandl/sablier-proxy/pull/55), [#56](https://github.com/vbrandl/sablier-proxy/pull/56), [#57](https://github.com/vbrandl/sablier-proxy/pull/57), [#58](https://github.com/vbrandl/sablier-proxy/pull/58))
 - Bump `reqwest` from 0.12.14 to 0.12.15 ([#43](https://github.com/vbrandl/sablier-proxy/pull/43))
 - Bump `anyhow` from 1.0.97 to 1.0.100 ([#45](https://github.com/vbrandl/sablier-proxy/pull/45), [#59](https://github.com/vbrandl/sablier-proxy/pull/59), [#67](https://github.com/vbrandl/sablier-proxy/pull/67))
-- Bump `stefanzweifel/git-auto-commit-action` from 5 to 6 ([#52](https://github.com/vbrandl/sablier-proxy/pull/52))
+- Bump `stefanzweifel/git-auto-commit-action` from 5 to 7 ([#52](https://github.com/vbrandl/sablier-proxy/pull/52), [#71](https://github.com/vbrandl/sablier-proxy/pull/71))
 - Bump `actions/checkout` from 4 to 5 ([#60](https://github.com/vbrandl/sablier-proxy/pull/60))
 - Bump `actions/attest-build-provenance` from 2 to 3 ([#62](https://github.com/vbrandl/sablier-proxy/pull/62))
 - Bump `tracing-subscriber` from 0.3.19 to 0.3.20 ([#63](https://github.com/vbrandl/sablier-proxy/pull/63))
