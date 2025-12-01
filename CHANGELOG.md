@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `stefanzweifel/git-auto-commit-action` from 5 to 7 ([#52](https://github.com/vbrandl/sablier-proxy/pull/52), [#71](https://github.com/vbrandl/sablier-proxy/pull/71))
 - Bump `actions/checkout` from 4 to 6 ([#60](https://github.com/vbrandl/sablier-proxy/pull/60), [#74](https://github.com/vbrandl/sablier-proxy/pull/74))
 - Bump `actions/attest-build-provenance` from 2 to 3 ([#62](https://github.com/vbrandl/sablier-proxy/pull/62))
-- Bump `tracing-subscriber` from 0.3.19 to 0.3.20 ([#63](https://github.com/vbrandl/sablier-proxy/pull/63))
+- Bump `tracing-subscriber` from 0.3.19 to 0.3.22 ([#63](https://github.com/vbrandl/sablier-proxy/pull/63), [#75](https://github.com/vbrandl/sablier-proxy/pull/75))
 - Bump `serde` from 1.0.219 to 1.0.228 ([#64](https://github.com/vbrandl/sablier-proxy/pull/64), [#65](https://github.com/vbrandl/sablier-proxy/pull/65), [#66](https://github.com/vbrandl/sablier-proxy/pull/66), [#69](https://github.com/vbrandl/sablier-proxy/pull/69), [#70](https://github.com/vbrandl/sablier-proxy/pull/70))
 - Bump `slab` from 0.4.10 to 0.4.11 ([#68](https://github.com/vbrandl/sablier-proxy/pull/68))
 
