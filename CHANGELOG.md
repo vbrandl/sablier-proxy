@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `tracing-subscriber` from 0.3.19 to 0.3.22 ([#63](https://github.com/vbrandl/sablier-proxy/pull/63), [#75](https://github.com/vbrandl/sablier-proxy/pull/75))
 - Bump `serde` from 1.0.219 to 1.0.228 ([#64](https://github.com/vbrandl/sablier-proxy/pull/64), [#65](https://github.com/vbrandl/sablier-proxy/pull/65), [#66](https://github.com/vbrandl/sablier-proxy/pull/66), [#69](https://github.com/vbrandl/sablier-proxy/pull/69), [#70](https://github.com/vbrandl/sablier-proxy/pull/70))
 - Bump `slab` from 0.4.10 to 0.4.11 ([#68](https://github.com/vbrandl/sablier-proxy/pull/68))
+- Bump `tracing` from 0.1.41 to 0.1.43 ([#76](https://github.com/vbrandl/sablier-proxy/pull/76))
 
 ## [0.4.0] 2025-03-15
 
