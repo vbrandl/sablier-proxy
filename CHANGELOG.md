@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `slab` from 0.4.10 to 0.4.11 ([#68](https://github.com/vbrandl/sablier-proxy/pull/68))
 - Bump `tracing` from 0.1.41 to 0.1.44 ([#76](https://github.com/vbrandl/sablier-proxy/pull/76), [#80](https://github.com/vbrandl/sablier-proxy/pull/80))
 - Bump `actions/cache` from 4 to 5 ([#78](https://github.com/vbrandl/sablier-proxy/pull/78))
+- Bump `futures` from 0.3.31 to 0.3.32 ([#86](https://github.com/vbrandl/sablier-proxy/pull/86))
 
 ## [0.4.0] 2025-03-15
 
