@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `actions/cache` from 4 to 5 ([#78](https://github.com/vbrandl/sablier-proxy/pull/78))
 - Bump `futures` from 0.3.31 to 0.3.32 ([#86](https://github.com/vbrandl/sablier-proxy/pull/86))
 - Bump `docker/setup-qemu-action` from 3 to 4 ([#90](https://github.com/vbrandl/sablier-proxy/pull/90))
+- Bump `docker/setup-buildx-action` from 3 to 4 ([#91](https://github.com/vbrandl/sablier-proxy/pull/91))
 
 ## [0.4.0] 2025-03-15
 
