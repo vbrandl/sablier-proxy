@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `docker/setup-qemu-action` from 3 to 4 ([#90](https://github.com/vbrandl/sablier-proxy/pull/90))
 - Bump `docker/setup-buildx-action` from 3 to 4 ([#91](https://github.com/vbrandl/sablier-proxy/pull/91))
 - Bump `docker/build-push-action` from 6 to 7 ([#93](https://github.com/vbrandl/sablier-proxy/pull/93))
+- Bump `docker/metadata-action` from 5 to 6 ([#94](https://github.com/vbrandl/sablier-proxy/pull/94))
 
 ## [0.4.0] 2025-03-15
 
