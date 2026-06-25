@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `serde` from 1.0.219 to 1.0.228 ([#64](https://github.com/vbrandl/sablier-proxy/pull/64), [#65](https://github.com/vbrandl/sablier-proxy/pull/65), [#66](https://github.com/vbrandl/sablier-proxy/pull/66), [#69](https://github.com/vbrandl/sablier-proxy/pull/69), [#70](https://github.com/vbrandl/sablier-proxy/pull/70))
 - Bump `slab` from 0.4.10 to 0.4.11 ([#68](https://github.com/vbrandl/sablier-proxy/pull/68))
 - Bump `tracing` from 0.1.41 to 0.1.44 ([#76](https://github.com/vbrandl/sablier-proxy/pull/76), [#80](https://github.com/vbrandl/sablier-proxy/pull/80))
-- Bump `actions/cache` from 4 to 5 ([#78](https://github.com/vbrandl/sablier-proxy/pull/78))
+- Bump `actions/cache` from 4 to 6 ([#78](https://github.com/vbrandl/sablier-proxy/pull/78), [#105](https://github.com/vbrandl/sablier-proxy/pull/105))
 - Bump `futures` from 0.3.31 to 0.3.32 ([#86](https://github.com/vbrandl/sablier-proxy/pull/86))
 - Bump `docker/setup-qemu-action` from 3 to 4 ([#90](https://github.com/vbrandl/sablier-proxy/pull/90))
 - Bump `docker/setup-buildx-action` from 3 to 4 ([#91](https://github.com/vbrandl/sablier-proxy/pull/91))
